@@ -26,6 +26,12 @@
         "description": "The DNS prefix for the public IP address used by the Load Balancer"
       }
     },
+    "vnetName": {
+      "type": "string",
+      "metadata": {
+        "description": "The Name of the Vnet to be created"
+      }
+    },    
     "windowsserver": {
       "type": "string",
       "metadata": {
