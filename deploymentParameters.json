@@ -8,11 +8,14 @@
       "adminPassword": {
         "value": "Nasunidata123#"
       },
+      "vnetName": {
+          "value": "uniqueString("lab-", resourceGroup().id)]"
+      },
       "domainName": {
         "value": "nasunilab.local"
       },
       "dnsPrefix": {
-        "value": "uniqueString(subscription().subscriptionId)]"
+        "value": "[concat('storage', uniqueString(resourceGroup().id))]"
       },
       "windowsserver": {
         "value": "2016-Datacenter"
