@@ -137,7 +137,7 @@
             "value": "[variables('virtualNetworkAddressRange')]"
           },
           "subnetName": {
-            "value": "[variables('adSubnetName')]"
+            "value": "[parameters('vnetName')]"
           },
           "subnetRange": {
             "value": "[variables('adSubnetAddressPrefix')]"
