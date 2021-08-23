@@ -69,7 +69,7 @@
     "adNicName": "adNic",
     "adNicIPAddress": "10.0.0.4",
     "adVMName": "adVM",
-    "adSubnetName": "adSubnet",
+    "adSubnetName": "[parameters('vnetName')]",
     "adSubnetAddressPrefix": "10.0.0.0/24",
     "publicIPAddressName": "adPublicIP",
     "adAvailabilitySetName": "adAvailabiltySet",
