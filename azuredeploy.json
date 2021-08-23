@@ -16,18 +16,21 @@
     },
     "domainName": {
       "type": "string",
+      "defaultValue": "nasunilab.local",
       "metadata": {
         "description": "The FQDN of the Active Directory Domain to be created"
       }
     },
     "dnsPrefix": {
       "type": "string",
+      "defaultValue": "[concat('lab', uniqueString(subscription().subscriptionId))]",
       "metadata": {
         "description": "The DNS prefix for the public IP address used by the Load Balancer"
       }
     },
     "vnetName": {
       "type": "string",
+      "defaultValue": "[concat('lab', uniqueString(resourceGroup().id))]",
       "metadata": {
         "description": "The Name of the Vnet to be created"
       }
