@@ -32,7 +32,7 @@
         "description": "The Name of the Vnet to be created"
       }
     },    
-    "windowsserver": {
+    "windowsServer": {
       "type": "string",
       "metadata": {
         "description": "The version of Windows Server to use"
