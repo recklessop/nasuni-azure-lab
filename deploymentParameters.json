@@ -9,10 +9,10 @@
         "value": "Nasunidata123#"
       },
       "domainName": {
-        "value": null
+        "value": "nasunilab.local"
       },
       "dnsPrefix": {
-        "value": null
+        "value": "uniqueString(subscription().subscriptionId)]"
       },
       "windowsserver": {
         "value": "2016-Datacenter"
