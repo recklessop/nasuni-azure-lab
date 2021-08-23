@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "adminUsername": {
+        "value": "nasuniadmin"
+      },
+      "adminPassword": {
+        "value": "Nasunidata123#"
+      },
+      "domainName": {
+        "value": null
+      },
+      "dnsPrefix": {
+        "value": null
+      },
+      "windowsserver": {
+        "value": "2016-Datacenter"
+      },
+      "_artifactsLocation": {
+        "value": "https://raw.githubusercontent.com/mikepfeiffer/azure-domain-controller/master/"
+      },
+      "_artifactsLocationSasToken": {
+        "value": null
+      }
+    }
+  }
